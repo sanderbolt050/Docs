@@ -52,4 +52,20 @@ Ook stond boven de email een de volgede melding: `[object Object]`. Dit samen me
 
 Nadat ik achter mijn email in totaal: `'OR 1=1;`. was ik binnen.
 
+## Tweede opdracht
+> Toon je antwoord aan met de PDF van je bestelling waar een negatief te betalen bedrag op staat. Laat daarnaast je aangepaste PUT/POST-request zien, en beschrijf welke stappen je hebt uitgevoerd om tot je antwoord te komen. (40%)
+
+Bij deze opdracht moet je ervoor zorgen dat de je geld terug krijgt bij  je bestelling. Dit kan je simpelweg doen door de aantal die je besteld te veranderen naar een negatief getal waardoor je een negatief getal moet betalen. Of te wel, je krijgt geld terug. 
+
+Hierom moet je eerst een product toevoegen aan je winkel mand via de normale manier. 
+Nadat je deze hebt toegoevoegd kan je in je winkelmand kijken naar wat je in winkelmand hebt gedaan. 
+
+Ik heb eerst alleen een Apple juice toegevoegd ter waarde van 1.99.
+
+Als wij nu in OWASP ZAP de optie aanzetten om alle pakketten die voorbij kamen over de proxy te bewerken voordat we ze naar de website sturen zien we verschillende pakketten voor bij komen. 
+
+ALs je naar de winkelmand gaat kan je daar de hoeveelheid aanpassen dat je wilt kopen. Dit kan je doen door op het plusje of minnetje te drukken. Als je hier op plus drukt, je de interceptor aan hebt staan in OWASP ZAP dan zie je een request voorbij komen met de waarde `"quantity":1` deze krijg 2x voorbij met de waarde een. Deze moet allebij aanpassen naar een negatief getal.
+[![N|Solid](https://github.com/sanderbolt050/Docs/blob/main/1.png)](https://nodesource.com/products/nsolid)
+
+
 
